@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+* {
+    margin : 0 auto;
+    padding : 0;
+    list-style : none;
+    color : #333333;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+body {
+    width : 1200px;
+    height : 700px;
+    background-color: #ffffff;
+    
+}
+
+.top {
+    width : 1200px;
+    height : 100px;
+    
+}
+
+.logo {
+    width : 200px;
+    height : 100px;
+    float : left;
+    background-color: deepskyblue;
+}
+
+.menu {
+    width : 1000px;
+    height : 100px;
+    position : relative;
+    background-color: rgb(212, 200, 253);
+    float : right;
+}
+
+.ing {
+    width : 1200px;
+    height : 150px;
+    background-color: blue;
+    position: absolute;
+    top : 100px;
+    right: 0px;
+    display: none;
+}
+
+.main {
+    width : 600px;
+    position: absolute;
+    left : 380px;
+    top : 50px;
+}
+
+.main>li {
+    float : left;
+    width : 150px;
+    height : 50px;
+    line-height: 50px;;
+    text-align: center;
+    background-color: rgb(255, 141, 255);
+    
+}
+.main>li>a {
+    font-weight: bold;
+}
+
+.main>li>a:hover {
+    background-color: rgb(255, 182, 221);
+}
+.sub {
+    height : 150px;
+    background-color: blue;
+    display: none;
+}
+
+.sub>li {
+    width : 150px;
+    height : 40px;
+    line-height: 40px;;
+    text-align: center;
+    background-color: blue;
+    
+}
+
+.sub>li>a {
+    color : #ffffff;
+    font-weight: bold;
+}
+
+.sub>li>a:hover {
+    background-color: brown;
+}
+
+
+
+.imgslide {
+    width : 1200px;
+    height : 300px;
+    float : left; 
+    background-color: rgb(91, 144, 184);
+}
+
+.cc {
+    width : 1200px;
+    height : 200px;
+    float : left;
+}
+
+.no {
+    width : 400px;
+    height : 200px;
+    float :left;
+    background-color: cadetblue;
+}
+
+.ba {
+    width : 400px;
+    height : 200px;
+    float :left;
+    background-color: darkolivegreen;
+}
+
+.sh {
+    width : 400px;
+    height : 200px;
+    float :left;
+    background-color: yellowgreen;
+}
+
+.bottom {
+    width : 1200px;
+    height : 100px;
+    float : left;
+}
+
+.logo2 {
+    width : 200px;
+    height : 100px;
+    float : left ;
+    background-color: thistle;
+}
+.bottom_b {
+    width : 1000px;
+    height : 100px;
+    float : left;
+}
+
+
+.menu2 {
+    width : 1000px;
+    height : 50px;
+    float : left;
+    background-color: darkslateblue;
+}
+
+.copy {
+    width : 1000px;
+    height : 50px;
+    float : left;
+    background-color: darkturquoise;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
